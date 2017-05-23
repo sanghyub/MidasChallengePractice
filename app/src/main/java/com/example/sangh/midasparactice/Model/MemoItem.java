@@ -8,11 +8,17 @@ import java.util.Date;
 
 public class MemoItem {
     int mNum;
+    int mImg;
     String mName;
     Boolean isImg;
     String mImagePath;
     String mContents;
     Date mDate;
+
+    public MemoItem(){
+        mName="제목없음";
+        mDate = new Date();
+    }
 
     public int getNum() {
         return mNum;
