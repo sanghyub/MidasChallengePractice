@@ -1,5 +1,8 @@
 package com.example.sangh.midasparactice.Model;
 
+import android.util.Log;
+import android.widget.FrameLayout;
+
 import java.util.Date;
 
 /**
@@ -7,17 +10,38 @@ import java.util.Date;
  */
 
 public class MemoItem {
-    int mNum;
-    int mImg;
-    String mName;
-    Boolean isImg;
-    String mImagePath;
-    String mContents;
-    Date mDate;
+
+    private int mNum;
+    private int mImg;
+    private String mName;
+    private String mImagePath;
+    private String mContents;
+    private Date mDate;
 
     public MemoItem(){
-        mName="제목없음";
-        mDate = new Date();
+        // Default ....
+        build();
+    }
+
+    public MemoItem(int mNum,  String mName, String mContents, int mImg, String imagePath ){
+        this();
+        this.mNum = mNum;
+        this.mImg=mImg;
+        this.mName=mName;
+        this.mImagePath=imagePath;
+        this.mContents=mContents;
+    }
+
+    public MemoItem(int mNum, String mName, String mContents){
+        this();
+        this.mNum = mNum;
+        this.mName=mName;
+        this.mContents=mContents;
+    }
+
+    public void build(){
+        mDate=new Date();
+        this.mName="제목없음";
     }
 
     public int getNum() {
@@ -34,14 +58,6 @@ public class MemoItem {
 
     public void setName(String name) {
         mName = name;
-    }
-
-    public Boolean getImg() {
-        return isImg;
-    }
-
-    public void setImg(Boolean img) {
-        isImg = img;
     }
 
     public String getImagePath() {
@@ -67,4 +83,12 @@ public class MemoItem {
     public void setDate(Date date) {
         mDate = date;
     }
+
+    public void setImg(int img) {
+        mImg = img;
+    }
+    public int getImg() {
+        return mImg;
+    }
+
 }
