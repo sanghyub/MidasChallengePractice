@@ -6,5 +6,5 @@ import android.support.v7.app.AppCompatActivity;
  * Created by sangh on 2017-05-27.
  */
 
-public class VolunteerDetails extends AppCompatActivity {
+public class VolunteerDetailActivity extends AppCompatActivity {
 }
