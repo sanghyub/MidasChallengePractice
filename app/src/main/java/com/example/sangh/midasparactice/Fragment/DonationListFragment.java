@@ -50,6 +50,9 @@ public class DonationListFragment extends Fragment{
     public void dummyData(){
         for(int i=0; i<10; i++) {
             Donation donation = new Donation();
+            donation.setTitle("무료 학식 사업");
+            donation.setPoint(2000);
+            donation.setTotalPoint(156000);
             mDonationItems.add(donation);
         }
         mAdapter.notifyDataSetChanged();

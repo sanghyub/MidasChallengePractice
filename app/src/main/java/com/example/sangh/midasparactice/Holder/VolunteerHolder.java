@@ -2,6 +2,7 @@ package com.example.sangh.midasparactice.Holder;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -46,7 +47,8 @@ public class VolunteerHolder  extends BaseViewHolder<Volunteer> implements View.
         mButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(mContext, "신청완료", Toast.LENGTH_SHORT);
+                mButton.setText("참여중");
+                mButton.setBackgroundColor(Color.rgb(0,86,255));
                 volunteer.setJoin(true);
             }
         });
@@ -69,7 +71,7 @@ public class VolunteerHolder  extends BaseViewHolder<Volunteer> implements View.
         intent.putExtra("img", mVolunteer.getImg());
         intent.putExtra("startDate", mVolunteer.getStartDate());
         intent.putExtra("endDate", mVolunteer.getEndDate());
-        intent.putExtra("contents", mVolunteer.getPoint());
+        intent.putExtra("contents", mVolunteer.getContents());
         intent.putExtra("point", mVolunteer.getPoint());
         mContext.startActivity(intent);
     }

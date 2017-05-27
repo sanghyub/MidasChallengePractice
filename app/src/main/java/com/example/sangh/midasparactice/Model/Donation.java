@@ -11,10 +11,10 @@ import java.util.Date;
 public class Donation {
     private long num;
     private  String title;
-    private Bitmap Img;
     private  int point;
     private int totalPoint;
     private String contents;
+    private String donationHistory;
 
     public Donation(){}
 
@@ -28,14 +28,6 @@ public class Donation {
 
     public void setTitle(String title) {
         this.title = title;
-    }
-
-    public Bitmap getImg() {
-        return Img;
-    }
-
-    public void setImg(Bitmap img) {
-        Img = img;
     }
 
     public int getPoint() {
@@ -60,5 +52,21 @@ public class Donation {
 
     public void setContents(String contents) {
         this.contents = contents;
+    }
+
+    public long getNum() {
+        return num;
+    }
+
+    public void setNum(long num) {
+        this.num = num;
+    }
+
+    public String getDonationHistory() {
+        return donationHistory;
+    }
+
+    public void setDonationHistory(String donationHistory) {
+        this.donationHistory = donationHistory;
     }
 }

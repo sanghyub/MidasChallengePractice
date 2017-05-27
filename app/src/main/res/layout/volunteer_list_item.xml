@@ -24,7 +24,7 @@
                 android:textSize="20dp"
                 android:textStyle="bold"
                 android:layout_marginLeft="20dp"
-                android:hint="나무심기"/>
+                android:hint="marathone"/>
 
 
             <TextView
@@ -53,6 +53,7 @@
         </LinearLayout>
 
         <Button
+            android:hint="apply"
             android:id="@+id/volunteer_btn"
             android:layout_gravity="center"
             android:layout_width="wrap_content"
