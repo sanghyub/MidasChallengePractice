@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/leecheonji/Documents/midas4/MidasChallengePractice/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bb32bda9a3c57036cc1e24e7f1c2c836e6ab4283">
+        <dex dex="/Users/leecheonji/Documents/midas4/MidasChallengePractice/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0a6145d162a19a70782b68e740905e825cc803d3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/leecheonji/Documents/midas4/MidasChallengePractice/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="/Users/leecheonji/Documents/midas4/MidasChallengePractice/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_74647028d0d2a46bb763b660573baf769bb5c1ff/classes.dex" />
+    </item>
+
+</items>

@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.Light.NoActionBar">
 
+        <activity android:name=".DonationDetailActivity"></activity>
+        <activity android:name=".VolunteerDetailActivity"></activity>
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
