@@ -30,18 +30,19 @@ public class DonationHolder extends BaseViewHolder<Donation> implements View.OnC
         title = (TextView)itemView.findViewById(R.id.donation_title);
         point = (TextView)itemView.findViewById(R.id.donation_point);
         totalPoint = (TextView)itemView.findViewById(R.id.donation_total_point);
+        donBtn = (Button)itemView.findViewById(R.id.donation_btn );
     }
 
     @Override
     public void onBindView(Donation donation) {
         mDonation= donation;
         title.setText(donation.getTitle());
-        point.setText(donation.getPoint());
-        totalPoint.setText(donation.getTotalPoint());
+        point.setText(donation.getPoint()+"");
+        totalPoint.setText(donation.getTotalPoint()+"");
         donBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(mContext, "기부", Toast.LENGTH_LONG);
+                Toast.makeText(mContext, "기부", Toast.LENGTH_LONG).show();
             }
         });
 

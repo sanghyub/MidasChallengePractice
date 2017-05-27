@@ -47,14 +47,14 @@ public class VolunteerHolder  extends BaseViewHolder<Volunteer> implements View.
         mButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mButton.setText("참여중");
-                mButton.setBackgroundColor(Color.rgb(0,86,255));
+                Toast.makeText(mContext, "신청하기", Toast.LENGTH_SHORT).show();
                 volunteer.setJoin(true);
             }
         });
 
         if(volunteer.isJoin()){
             mButton.setText("참여중");
+            mButton.setBackgroundColor(Color.rgb(0,86,255));
             mButton.setEnabled(false);
         }
         else{
