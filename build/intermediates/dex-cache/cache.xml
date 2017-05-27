@@ -3,6 +3,78 @@
 
     <item
         is-multidex="true"
+        jar="/Users/leecheonji/.android/build-cache/4cf67f5c3394fff9386ca48ecb7db5d766834887/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/Users/leecheonji/Documents/midas/MidasChallengePractice/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a5609ec3d76062f44ba59edc8eda75983d1428ae/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/leecheonji/.android/build-cache/411a9f81ffef61621ac28fe359f38f04d835cbc1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="/Users/leecheonji/Documents/midas/MidasChallengePractice/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_eb4e2f2e317d048a3dceddea046dde629adce0d5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/leecheonji/.android/build-cache/97cf8c58678a4e0956ce97926f47ce862c556f93/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/Users/leecheonji/Documents/midas/MidasChallengePractice/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c781626827040465b820799814a821cd37ad11db/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/leecheonji/Documents/midas/MidasChallengePractice/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3531d0d3fbcb86866a9bb3cb5d683b9708186c89">
+        <dex dex="/Users/leecheonji/Documents/midas/MidasChallengePractice/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1ff4c0cb56826b6b78dd5aec4fe026e7b60f3323/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/leecheonji/.android/build-cache/23812a05cba57a8b9038b4f0e9b8f2cd47323aa7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="/Users/leecheonji/Documents/midas/MidasChallengePractice/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_096a5df2a7c29b074f8f20f710ff5d446a11b6ab/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/leecheonji/.android/build-cache/7b2ea99070e728cb6e142b384dd4be85bc25c3c7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/Users/leecheonji/Documents/midas/MidasChallengePractice/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e563d35714c7522f34b320e5398b51eb8ad529b6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/leecheonji/.android/build-cache/df26e1ccd731a36a7dd43c23c14ad22fbdc0af33/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/Users/leecheonji/Documents/midas/MidasChallengePractice/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e22c30737ad5a2208fbe179984649549ba7fad84/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/leecheonji/.android/build-cache/e906ddf70861db86c0ccaaa3ef5b0bc2a8a24385/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/leecheonji/Documents/midas/MidasChallengePractice/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_75855c452ac4bd5f452181314119038489bdf3cf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/leecheonji/Documents/midas/MidasChallengePractice/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
@@ -12,12 +84,66 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/leecheonji/Documents/midas/MidasChallengePractice/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/Users/leecheonji/.android/build-cache/b51396990d9bc59db5f7fe378bd6d7619a79ca28/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="b04bfbf3b1c69c19c29ae68e0043d60ee5e86c8a">
-        <dex dex="/Users/leecheonji/Documents/midas/MidasChallengePractice/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1ff4c0cb56826b6b78dd5aec4fe026e7b60f3323/classes.dex" />
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/Users/leecheonji/Documents/midas/MidasChallengePractice/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d6bfb3f3b2e0fd18850c87d91c15682c063206e4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/leecheonji/.android/build-cache/4023993fa6b27f6187d5832dd78f1c3cf7eb65ea/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e176fd06c2ad5b50a2f5cb4de6000a83a7cb48f5">
+        <dex dex="/Users/leecheonji/Documents/midas/MidasChallengePractice/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9c3ce4bec3596b6e9deeeb4ceaaebeabd53777ee/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/leecheonji/.android/build-cache/cb440d60e2e994655d539e53a130b2589d8ba4c9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="/Users/leecheonji/Documents/midas/MidasChallengePractice/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b8ca0574d7731bdd3a5a71dadf4679ad8be1f6aa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/leecheonji/.android/build-cache/86eb23eb675984a5865243d49361987cae68d347/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/Users/leecheonji/Documents/midas/MidasChallengePractice/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_699b63cea4f23f88fff9bb139983595e2e89a798/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/leecheonji/.android/build-cache/d0b0ac4390ffd19e12fae8f50fd9acbdcf3d8a18/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/Users/leecheonji/Documents/midas/MidasChallengePractice/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e7f5928db047e4fc5f02d6b30ff12316274d8289/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/leecheonji/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/Users/leecheonji/Documents/midas/MidasChallengePractice/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-26.0.0-alpha1_ef774ed93d00b3a2d1af389ff3a387bb218ee84b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/leecheonji/.android/build-cache/0888f4c631486717bbd2e0a684286f5fbcc8f1ee/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/Users/leecheonji/Documents/midas/MidasChallengePractice/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_75cee58e25a1288f70646006c3903be629d15e1b/classes.dex" />
     </item>
 
 </items>

@@ -48,7 +48,7 @@ public class DonationListFragment extends Fragment{
 
     public void dummyData(){
 
-        Donation donation = new Donation();
+//        Donation donation = new Donation();
     }
 
 }
