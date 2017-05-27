@@ -7,7 +7,7 @@ import android.graphics.Bitmap;
  */
 
 public class UserInfo {
-    private int num;
+    private long num;
     private String name;
     private int point;
     private Bitmap userImage;
@@ -15,6 +15,10 @@ public class UserInfo {
     UserInfo(){
 
     }
+
+    public long getNumber() { return num; };
+
+    public void setNumber(long num) { this.num = num;}
 
     public String getName() {
         return name;

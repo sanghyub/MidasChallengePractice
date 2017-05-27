@@ -9,16 +9,20 @@ import java.util.Date;
  */
 
 public class Donation {
-    private int num;
-    private String title;
+    private long num;
+    private  String title;
     private Bitmap Img;
-    private Date startDate;
-    private Date endDate;
-    private String Contents;
-    private int point;
-    private boolean join;
+    private  int point;
+    private int totalPoint;
+    private String contents;
 
-    Donation(){}
+    Donation(){
+
+    }
+
+    public long getNumber() { return num; };
+
+    public void setNumber(long num) { this.num = num;}
 
     public String getTitle() {
         return title;
@@ -36,30 +40,6 @@ public class Donation {
         Img = img;
     }
 
-    public Date getStartDate() {
-        return startDate;
-    }
-
-    public void setStartDate(Date startDate) {
-        this.startDate = startDate;
-    }
-
-    public Date getEndDate() {
-        return endDate;
-    }
-
-    public void setEndDate(Date endDate) {
-        this.endDate = endDate;
-    }
-
-    public String getContents() {
-        return Contents;
-    }
-
-    public void setContents(String contents) {
-        Contents = contents;
-    }
-
     public int getPoint() {
         return point;
     }
@@ -68,11 +48,19 @@ public class Donation {
         this.point = point;
     }
 
-    public boolean isJoin() {
-        return join;
+    public int getTotalPoint() {
+        return totalPoint;
     }
 
-    public void setJoin(boolean join) {
-        this.join = join;
+    public void setTotalPoint(int totalPoint) {
+        this.totalPoint = totalPoint;
+    }
+
+    public String getContents() {
+        return contents;
+    }
+
+    public void setContents(String contents) {
+        this.contents = contents;
     }
 }
