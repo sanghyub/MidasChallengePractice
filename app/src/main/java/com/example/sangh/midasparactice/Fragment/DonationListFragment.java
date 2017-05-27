@@ -33,11 +33,12 @@ public class DonationListFragment extends Fragment{
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.donation_fragment , container, false);
 
-        mRecyclerView = (RecyclerView) v.findViewById(R.id.fragment_donation);
+        mRecyclerView = (RecyclerView) v.findViewById(R.id.recycler_donation);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
-        updateUI();
 
-        return inflater.inflate(R.layout.donation_fragment, container, false);
+        updateUI();
+        dummyData();
+        return v;
     }
 
 
@@ -47,8 +48,11 @@ public class DonationListFragment extends Fragment{
     }
 
     public void dummyData(){
-
-//        Donation donation = new Donation();
+        for(int i=0; i<10; i++) {
+            Donation donation = new Donation();
+            mDonationItems.add(donation);
+        }
+        mAdapter.notifyDataSetChanged();
     }
 
 }

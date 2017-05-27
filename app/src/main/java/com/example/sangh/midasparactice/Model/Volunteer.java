@@ -18,8 +18,10 @@ public class Volunteer {
     private int point;
     private boolean join;
 
-    Volunteer(){}
 
+    public Volunteer() {
+        join = false;
+    }
     public long getNumber() { return num; };
 
     public void setNumber(long num) { this.num = num;}

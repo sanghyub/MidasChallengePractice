@@ -16,9 +16,7 @@ public class Donation {
     private int totalPoint;
     private String contents;
 
-    Donation(){
-
-    }
+    public Donation(){}
 
     public long getNumber() { return num; };
 

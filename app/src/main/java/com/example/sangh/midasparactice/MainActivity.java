@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.donation_details);
+        setContentView(R.layout.activity_main);
 
         // Adding Toolbar to the activity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
